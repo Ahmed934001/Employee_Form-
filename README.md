@@ -1,17 +1,19 @@
 # Employee_Form-
-The employee form was developed using the Python Django Web Framework and Bootstrap 5 b using Pycharm ID
+The employee form was developed using the Python Django Web Framework and Bootstrap 5. Pycharm 2022 Community version IDE is used for whole project
 
-This is a simple and fully functional example of CRUD functionality. The frontend is developed using the Bootstrap 4, and backend is on Python Django Web Framework. 
+This is a simple and fully functional example of CRUD functionality. The frontend is developed using the Bootstrap 5, and backend is on Python Django Web Framework. 
 
 Important:
 
-The main project and the wokring must be parent. Otherwise, the VIEWS file will not wokring, and the URLs. py won't be able to locate the functions created inside the view.py file. 
+The main project and the app must be parent. Otherwise, the VIEWS file will not work porperly while calling it in urls.py file. 
 
 After installing the Django Framework by the command "pip install django" we must add the Django Package into the project to use the complete libraries of the Django.
 
 The {% csrf_token %} is important to keep form secure from any hacker attempts. Where we use the form method "POST"
 
 The "template" folder is the child of app folder. and this contain all the frontend files such as HTML, CSS ,JS and others
+
+The app which we created thourhgt command line must be cealred in the installed app section which can be found in setting.py files in main project folder.
 
 Model.py
 
